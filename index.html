@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <title>Ashwani Mishra</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- HOSTED -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="fonts/mdi/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="style/style.css" />
+     <link rel="stylesheet" href="style/mystyle.css" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
+  </head>
+  <body>
+    <div class="overflow-wrap">
+      <!-- HOME -->
+      <div class="modal-wrap flex">
+        <div class="mask"></div>
+        <div class="modal" id="modal">
+          <div class="carousel-wrap">
+            <div class="window">
+              <div id="carousel">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+              </div>
+              <i class="mdi mdi-chevron-left" id="prev"></i>
+              <i class="mdi mdi-chevron-right" id="next"></i>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="title"></div>
+            <div class="tag"></div>
+            <div class="detail"></div>
+            <a href="#" target="_blank"
+              ><div class="button">
+                <i class="mdi mdi-open-in-new"></i>VIEW SITE
+              </div></a
+            >
+          </div>
+          <i class="close mdi mdi-close"></i>
+        </div>
+      </div>
+
+      <section id="home" class="flex height-fix">
+        <div id="pt" class="canvas"></div>
+        <div class="flex">
+          <div class="text">
+            Hello, I'm <span class="highlight">Ashwani Mishra</span>.
+            <br />
+            I'm a full-stack web developer.
+          </div>
+
+          <div class="button page-link" dest="about">
+            <a href="#view">View my work</a> <i class="mdi mdi-arrow-right" href="#view"></i>
+          </div>
+
+          <nav class="flex" id="view">
+            <div class="link-wrap">
+              <div class="active page-link" dest="home">home</div>
+              <div class="page-link" dest="about"><a href="#about">about</a></div>
+              <div class="page-link" dest="portfolio"><a href="https://novoresume.com/editor/resume/b82af700-f043-11ea-9886-5d9d9ee0443b" target="_blank">portfolio</a></div>
+              <div class="page-link" dest="blog"><a href="#blog">blog</a></div>
+              <div class="page-link" dest="contact"><a href="#contact">contact</div>
+            </div>
+            <i class="mdi mdi-menu"></i>
+          </nav>
+        </div>
+      </section>
+	  <section class="jumbotron back-image" style="background-image: url(img/About.jpg);" id="about">
+                <div class="container">
+                     <div class="row">
+                        <div class="col-sm-7">
+                          <h2>About</h2>
+	                      <p class="lead" id="detail1">
+                  <span class="lead" id="details_heading">
+                  A Web and  Android Developer Enthusiast who is adaptable and flexible working on new technologies.
+                  <br><br>
+                  
+                </span>
+                 I want to be a part of organization where I can grow in terms of knowledge and skills and want to serve with positive attitude and efficiency so as to align self-development and organization development and prove to be a valuable asset for the organisation.
+                            <button class="btn" id="Resume" style="background-color: #474747;
+  color: white;margin-top: 20px;"><a href="https://novoresume.com/editor/resume/b82af700-f043-11ea-9886-5d9d9ee0443b" target="_blank">Resume</a></button>
+               </p>
+    
+	                    </div>
+	                    <div class="col-sm-5">
+	                 <div class="img-wrap">
+	                    <img src="img/Ashwani.png" class="img-fluid" id="myImage">
+	                 </div>
+	                </div>
+	              </div>
+	         </div>
+</section>
+      <!-- About Ashwani 
+       <div id="About">
+         <div class="container">
+          <h3 class="text-center" id="about1" >About</h3>
+           <div class="row">
+
+             <div class="col-sm-4">
+
+                <div id="design">
+
+                   <img src="img/Ashwani.png" class="img-fluid" id="myImage">
+
+
+                </div>
+
+             </div>
+             <div class="col-sm-8">
+
+               <p class="lead" id="detail1">
+                  <span class="lead" id="details_heading">
+                  A Web and  Android Developer Enthusiast who is adaptable and flexible working on new technologies.
+                  <br><br>
+                  
+                </span>
+                 I want to be a part of organization where I can grow in terms of knowledge and skills and want to serve with positive attitude and efficiency so as to align self-development and organization development and prove to be a valuable asset for the organisation.
+                            <button class="btn" id="Resume" style="background-color: #474747;
+  color: white;margin-top: 20px;">Resume</button>
+               </p>
+    
+             </div>
+           </div>
+         </div>
+         
+       </div> -->
+<!-- portofolio-->
+<div class="services-section jumbotron" style="background-color:#17b978;" id="blog">
+ <div class="inner-width">
+   <h1 class="section-title">My Project</h1>
+   <div class="flex justify-content-center">
+                 <div class="tab">
+                        <button class="tablinks active" onclick="openCity(event, 'All')" id="defaultOpen" style="color:white;">All</button>
+                        <button class="tablinks" onclick="openCity(event, 'PHP')" style="color:white;">PHP</button>
+                        <button class="tablinks" onclick="openCity(event, 'Python')"  style="color:white;">Python</button>
+                        <button class="tablinks" onclick="openCity(event, 'Flutter')"  style="color:white;">Flutter</button>
+                  </div>
+              </div>
+			   <div class="row" >
+             
+
+                        <div id="All" class="tabcontent ">
+                          <h3 style="margin-top:10px;">All Project</h3>
+     <div class="row mb-4" style="margin-left:20px;">
+	 <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-3">
+	   <div class="card-body text-center">
+	   <img src="img/kvs.jpg" alt="" class="img-fluid" style="border-radius:100px;"><br><br>
+	   <h4 class="card-title" style="color:black">KVS Private Limited Varanasi (MLM)</h4>
+	   <h6 class="card-text text-danger"><a href="http://www.kvspvtltd.com/" target="_blank">www.kvspvtltd.com</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Html, Bootstrap, PHP, MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-3">
+	   <div class="card-body text-center">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;"><br>
+      <h3 class="card-title" style="color:black">Samart Social Welfare Society (Banking)</h3><br>
+	   <h6 class="card-text text-danger"><a href="http://www.smartwelfare.com/" target="_blank">www.samrtwelfare.com</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- PHP, MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	 <h3 class="card-title" style="color:black">Morden Style Be Stylish (Online Shopping)</h3>
+	   <h6 class="card-text text-danger"><a href="http://www.mordenstyle.com/" target="_blank">www.mordenstyle.com</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- BootStrap,PHP,MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Drona Coaching center Varanasi</h3><br>
+	   <h6 class="card-text text-danger"><a href="http://www.dronacoaching.in/" target="_blank">www.dronacoaching.in</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Bootstrap, JavaScript, PHP</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/face.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Face Detection</h3><br>
+	   <h6 class="card-text text-danger"><a href="https://github.com/Ashwani-Mishra/face-detection.git" target="_blank">https://github.com/Ashwani-Mishra/face-detection.git</a></h6><br>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCV</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/draw.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Draw in Air</h3><br>
+	   <h6 class="card-text text-danger"><a href="https://github.com/Ashwani-Mishra/Draw-in-air.git" target="_blank">https://github.com/Ashwani-Mishra/Draw-in-air.git</a></h6><br>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCv</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/room.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Room Security Using Webcam</h3>
+	   <h6 class="card-text text-danger"><a href="https://github.com/Ashwani-Mishra/Room-Security-Using-Laptop-Webcam.git" target="_blank">https://github.com/Ashwani-Mishra/Room-Security-Using-Laptop-Webcam.git</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Python, OpenCv</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/covied.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h4 class="card-title" style="color:black">Covid-19 Status Notifire/Updater</h4>
+	   <h6 class="card-text text-danger"><a href="https://github.com/Ashwani-Mishra/Covid-19-Windows-Notifier-Updater-.git" target="_blank">https://github.com/Ashwani-Mishra/Covid-19-Windows-Notifier-Updater-.git</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCV</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/news.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h2 class="card-title" style="color:black">News Reader App</h2>
+	   <h6 class="card-text text-danger"><a href="https://github.com/Ashwani-Mishra/News-Reader-App.git" target="_blank">https://github.com/Ashwani-Mishra/News-Reader-App.git</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Flutter</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/picart.jpg" alt="" class="img-fluid" style="border-radius:100px;"><br>
+	   <h3 class="card-title" style="color:black">Carft Mindz Learning Services</h3>
+	   <h6 class="card-text text-danger"><a href="https://www.craftmindz.com" target="_blank">https://www.craftmindz.com</a></h6>
+	   <p class="card-text" style="color:black;">Use Technology:-Bootstrap,Ajax,PHP,MySql</p>
+	   </div>
+	   </div>
+	    </div>
+          </div>  
+             </div>
+
+                         <div id="PHP" class="tabcontent">
+                          <h3>PHP</h3>
+                           <div class="row mb-4" style="margin-left:20px;">
+	 <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-3">
+	   <div class="card-body text-center">
+	   <img src="img/kvs.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h4 class="card-title" style="color:black">KVS Private Limited Varanasi (MLM)</h4>
+	   <h6 class="card-text text-danger">www.kvspvtltd.com</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Html, Bootstrap, PHP, MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-3">
+	   <div class="card-body text-center">
+           <div class="Sourabh">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+       </div>
+      <h2 class="card-title" style="color:black">Samart Social Welfare Society (Banking)</h2>
+	   <h6 class="card-text text-danger">www.samratwelfare.com</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- PHP, MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	 <h3 class="card-title" style="color:black">Morden Style Be Stylish (Online Shopping)</h3>
+	   <h6 class="card-text text-danger">www.mordenstyle.com</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- BootStrap,PHP,MySql</p>
+	   </div>
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/morden.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h2 class="card-title" style="color:black">Drona Coaching center Varanasi</h2>
+	   <h6 class="card-text text-danger">www.dronacoaching.in</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Bootstrap, JavaScript, PHP</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/picart.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Carft Mindz Learning Services</h3>
+	   <h6 class="card-text text-danger">https://www.craftmindz.com</h6>
+	   <p class="card-text" style="color:black;">Use Technology:-Bootstrap,Ajax,PHP,MySql</p>
+	   </div>
+	   </div>
+	    </div>
+		</div>
+                        </div>
+                         <div id="Python" class="tabcontent">
+                          <h3>Python</h3>
+						  <div class="row mb-4" style="margin-left:20px;">
+						   <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/face.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Face Detection</h3><br>
+	   <h6 class="card-text text-danger">https://github.com/Ashwani-Mishra/face-detection.git</h6><br>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCV</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/draw.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Draw in Air</h3><br>
+	   <h6 class="card-text text-danger">https://github.com/Ashwani-Mishra/Draw-in-air.git</h6><br>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCv</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/room.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">Room Security Using Webcam</h3>
+	   <h6 class="card-text text-danger">https://github.com/Ashwani-Mishra/Room-Security-Using-Laptop-Webcam.git</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Python, OpenCv</p>
+	   </div>
+	   </div>
+	    </div>
+		 <div class="col-lg-3 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/covied.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h4 class="card-title" style="color:black">Covid-19 Status Notifire/Updater</h4>
+	   <h6 class="card-text text-danger">https://github.com/Ashwani-Mishra/Covid-19-Windows-Notifier-Updater-.git</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Python ,OpenCV</p>
+	   </div>
+	   </div>
+	    </div>
+                      </div>
+                        </div>
+                          <div id="Flutter" class="tabcontent">
+                          <h3>Flutter</h3>
+						  <div class="row mb-2" style="margin-left:20px;">
+                      <div class="col-lg-8 col-sm-6">
+	   <div class="card  shadow-lg mb-2">
+	   <div class="card-body text-center">
+	   <img src="img/news.jpg" alt="" class="img-fluid" style="border-radius:100px;">
+	   <h3 class="card-title" style="color:black">News Reader App</h3>
+	   <h6 class="card-text text-danger">https://github.com/Ashwani-Mishra/News-Reader-App.git</h6>
+	   <p class="card-text" style="color:black;">Use Technology:- Flutter</p>
+	   </div>
+	   </div>
+	    </div>
+		</div>
+                        </div>
+
+            </div>
+ </div>
+</div> 
+
+
+
+    
+      <!-- PORTFOLIO -->
+        <!--  <div class="container" id="project">
+             <div style="padding: 50px;">
+                <h3 class="text-center" id="about1">Project</h3>
+             </div>
+              <div class="flex justify-content-center">
+                 <div class="tab">
+                        <button class="tablinks active" onclick="openCity(event, 'All')" id="defaultOpen">All</button>
+                        <button class="tablinks" onclick="openCity(event, 'PHP')">PHP</button>
+                        <button class="tablinks" onclick="openCity(event, 'Python')">Python</button>
+                        <button class="tablinks" onclick="openCity(event, 'Flutter')">Flutter</button>
+                  </div>
+              </div>
+            <div class="row" >
+             
+
+                        <div id="All" class="tabcontent">
+                          <h3>All Project</h3>
+                           <div class="col-sm-3">
+
+                           <div class="box">
+                                <div class="imgBox" >
+                                   <img src="img/Ashwani.png" >
+                                    <div class="details"> 
+                                   <h2>Mr.Ashwani Mishra</h2>
+                                   <p>I am Web Developer (PHP Laravel) </p>
+                                  
+                                </div>
+                                </div>
+                               
+                            </div>
+                
+                    </div>
+
+                          
+                          
+                        </div>
+
+                         <div id="PHP" class="tabcontent">
+                          <h3>PHP</h3>
+               
+                        </div>
+                         <div id="Python" class="tabcontent">
+                          <h3>Python</h3>
+                      
+                        </div>
+                          <div id="Flutter" class="tabcontent">
+                          <h3>Flutter</h3>
+                      
+                        </div>
+
+            </div>
+            
+          </div>
+      <!--Contact -->
+	  
+	  <section class="ftco-section contact-section ftco-no-pb" id="contact">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Contact Me</h2>
+           </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 bg-light">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="fa fa-map-marker"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>Gosaipur, Varanasi,Uttar Pradesh</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 bg-light">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="fa fa-phone"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://1234567920">+91 8574809157</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 bg-light">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="fa fa-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:info@yoursite.com">ashwanivns1242@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 bg-light">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="fa fa-globe"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Website</h3>
+		            <p><a href="#">yoursite.com</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+
+       
+      </div>
+    </section>
+	
+    <!--    <div class="container" id="contact">
+             <div style="padding: 50px;">
+                <h2 class="text-center" style="color:black;width:bold;">GET IN TOUCH</h2>
+             </div>
+            <div class="row" id="contact_style">
+               <div class="col-sm-4">
+                
+                <p>
+                 <span> Address:</span> Gosaipur, Varanasi,Uttar Pradesh <br>
+                 <span>Contact:</span> +91 8574809157 <br>
+                 <span>Email:</span>ashwanivns1242@gmail.com<br>
+				 <span>Addar Number:</span><br>
+                 <a href="https://github.com/Ashwani-Mishra" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+				 <a href="https://twitter.com/Ashwani09088734?s=09" target="_blank"><i class="fa fa-twitter"></i></a>
+                </p>
+
+
+               </div>
+                <div class="col-sm-8">
+               </div>
+            </div>
+        </div> -->
+      
+      <footer>
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+        <div class="icon-wrap flex row">
+          <a href="https://www.linkedin.com/in/mattwilliams85">
+            <div class="flex icon" id="icon-2">
+              <i class="mdi mdi-linkedin"></i>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/matthew.williams.351">
+            <div class="flex icon" id="icon-3">
+              <i class="mdi mdi-facebook"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com/infinite_edge/">
+            <div class="flex icon" id="icon-4">
+              <i class="mdi mdi-instagram"></i>
+            </div>
+          </a>
+          <a href="http://codepen.io/matthewwilliams/">
+            <div class="flex icon" id="icon-5">
+              <i class="mdi mdi-codepen"></i>
+            </div>
+          </a>
+        </div>
+        <div class="info-box">
+          <div class="footnote">
+            Ashwani Mishra <span class="highlight">&copy;2020</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        
+      }
+     
+      document.getElementById("defaultOpen").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  </body>
+
+</html>
+
+<script src="scripts/canvas.js"></script>

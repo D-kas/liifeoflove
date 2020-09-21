@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <title>Ashwani Mishra</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- HOSTED -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="fonts/mdi/css/materialdesignicons.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+
+    <!-- LOCAL -->
+    <link rel="stylesheet" href="style/style.css" />
+     <link rel="stylesheet" href="style/mystyle.css" />
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+
+    <!-- LOCAL -->
+    <script src="scripts/pt.min.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/modal.js"></script>
+  </head>
+  <body>
+  <div class="overflow-wrap">
+      <!-- HOME -->
+      <div class="modal-wrap flex">
+        <div class="mask"></div>
+        <div class="modal" id="modal">
+          <div class="carousel-wrap">
+            <div class="window">
+              <div id="carousel">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+              </div>
+              <i class="mdi mdi-chevron-left" id="prev"></i>
+              <i class="mdi mdi-chevron-right" id="next"></i>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="title"></div>
+            <div class="tag"></div>
+            <div class="detail"></div>
+            <a href="#" target="_blank"
+              ><div class="button">
+                <i class="mdi mdi-open-in-new"></i>VIEW SITE
+              </div></a
+            >
+          </div>
+          <i class="close mdi mdi-close"></i>
+        </div>
+      </div>
+	    <section id="home" class="flex height-fix">
+        <div id="pt" class="canvas"></div>
+          <nav class="flex" id="view">
+            <div class="link-wrap">
+              <div class="active page-link" dest="home">home</div>
+              <div class="page-link" dest="about">about</div>
+              <div class="page-link" dest="portfolio"><a href="portofolio.html">portfolio</a></div>
+              <div class="page-link" dest="blog">blog</div>
+              <div class="page-link" dest="contact">contact</div>
+            </div>
+            <i class="mdi mdi-menu"></i>
+          </nav>
+        </div>
+      </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	        <!--Contact -->
+        <div class="container">
+             <div style="padding: 50px;">
+                <h3 class="text-center" id="about1">Contact</h3>
+             </div>
+            <div class="row" id="contact_style">
+               <div class="col-sm-4">
+                <h2 class="text-center">GET IN TOUCH</h2>
+                <p>
+                 <span> Address:</span> Gosaipur, Varanasi,Uttar Pradesh <br>
+                 <span>Contact:</span> +91 8574809157 <br>
+                 <span>Email:</span>ashwanivns1242@gmail.com
+
+                </p>
+
+
+               </div>
+                <div class="col-sm-8">
+               </div>
+            </div>
+        </div>
+      
+      <footer>
+        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+        <div class="icon-wrap flex row">
+          <a href="https://www.linkedin.com/in/mattwilliams85">
+            <div class="flex icon" id="icon-2">
+              <i class="mdi mdi-linkedin"></i>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/matthew.williams.351">
+            <div class="flex icon" id="icon-3">
+              <i class="mdi mdi-facebook"></i>
+            </div>
+          </a>
+          <a href="https://instagram.com/infinite_edge/">
+            <div class="flex icon" id="icon-4">
+              <i class="mdi mdi-instagram"></i>
+            </div>
+          </a>
+          <a href="http://codepen.io/matthewwilliams/">
+            <div class="flex icon" id="icon-5">
+              <i class="mdi mdi-codepen"></i>
+            </div>
+          </a>
+        </div>
+        <div class="info-box">
+          <div class="footnote">
+            Ashwani Mishra <span class="highlight">&copy;2020</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        
+      }
+     
+      document.getElementById("defaultOpen").click();
+</script>
+  </body>
+
+</html>
+
+<script src="scripts/canvas.js"></script>
